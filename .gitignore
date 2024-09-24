@@ -2,3 +2,5 @@
 target/
 dbt_packages/
 logs/
+venv/
+seeds/raw/aneel_interrupcoes.csv
