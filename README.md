@@ -1,4 +1,6 @@
-Welcome to your new dbt project!
+Projeto DBT utilizado para tratar os dados brutos das fontes utilizadas no Challenge FIAP proposto pela Minsait.
+
+-----------------------------------
 
 ### Using the starter project
 
