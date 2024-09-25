@@ -44,8 +44,8 @@ SELECT
     p.Precipitacao_mm,
     p.Bairro,
     CASE 
-        WHEN p.Precipitacao_mm < l.Limiar_0_75 THEN 'Normal'
-        WHEN p.Precipitacao_mm >= l.Limiar_0_75 AND p.Precipitacao_mm < l.Limiar_0_9 THEN 'Médio'
+        WHEN p.Precipitacao_mm < l.Limiar_0_75 THEN 'Baixo'
+        WHEN p.Precipitacao_mm >= l.Limiar_0_75 AND p.Precipitacao_mm < l.Limiar_0_9 THEN 'Medio'
         ELSE 'Alto'
     END AS nivel_alerta
 FROM 
